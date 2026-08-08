@@ -28,3 +28,8 @@ analytics*
 .well-known/
 .well-known@
 .well-known*
+
+# Wrangler (Cloudflare Workers)
+.wrangler/
+worker-build/
+*.wasm

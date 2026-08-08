@@ -6,16 +6,35 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Dmego Home">
-    <meta name="keywords" content="Dmego,Homepage">
-    <meta name="author" content="Dmego">
-    <title>Dmego Home</title>
+    <meta name="description" content="YuFun Home">
+    <meta name="keywords" content="YuFun,Homepage">
+    <meta name="author" content="Yu">
+    <title>YuFun home</title>
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/onlinewebfonts.css"/>
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/vno.css">
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/iconfont.css">
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/wakatime-theme.css">
     <link rel="apple-touch-icon" href="https://unpkg.com/dmego-home-page@latest/apple-touch-icon.png">
     <link rel="icon" href="https://unpkg.com/dmego-home-page@latest/favicon.ico">
+    <style>
+        /* 覆盖标题字体为正常字体 */
+        .panel-title {
+            font-family: "PingFang SC", "Microsoft YaHei", "Lato", sans-serif !important;
+        }
+        /* 增加头像与名字之间的间距 */
+        .panel-title {
+            margin-top: 25px !important;
+        }
+        /* 社交图标对齐 — 统一 vertical-align */
+        .navigation--social a i,
+        .navigation--social a svg {
+            vertical-align: middle !important;
+        }
+        .navigation--social a svg {
+            width: 22px;
+            height: 22px;
+        }
+    </style>
 </head>
 
 <body>
@@ -29,7 +48,7 @@
                 <div class="panel-main__content">
                     <div class="ih-item circle effect right_to_left">            
                         <a href="#" title="" class="blog-button">
-                            <div class="img"><img src="https://unpkg.com/dmego-home-page@latest/assets/img/logo3.jpg" alt="img" class="js-avatar iUp profilepic"></div>
+                            <div class="img"><img src="https://avatars.githubusercontent.com/u/136226133?s=120" alt="img" class="js-avatar iUp profilepic"></div>
                             <div class="info iUp">
                                 <div class="info-back">
                                     <h2> 
@@ -47,7 +66,7 @@
                         </a>
                     </div>
                     <h1 class="panel-cover__title panel-title iUp">
-                        <a href="#" title="Dmego Home">Dmego</a>
+                        <a href="#" title="YuFun Home">Yu</a>
                     </h1>
                     <p class="panel-cover__subtitle panel-subtitle iUp">Code Create Life</p>
                     <hr class="panel-cover__divider iUp" />
@@ -60,16 +79,7 @@
                             <nav class="cover-navigation cover-navigation--primary">
                                 <ul class="navigation">
                                     <li class="navigation__item">
-                                        <a href="/" class="blog-button">首页</a>
-                                    </li>
-                                    <li class="navigation__item">
-                                        <a href="https://dmego.cn" class="blog-button" target="_blank" onclick="event.preventDefault(); showWeChatModal();">博客</a>
-                                    </li>
-                                    <li class="navigation__item">
-                                        <a href="https://r.dmego.cn" class="blog-button" target="_blank" onclick="event.preventDefault();">简历</a>
-                                    </li>
-                                    <li class="navigation__item">
-                                        <a href="https://dmego.cn/about/" class="blog-button" target="_blank" onclick="event.preventDefault();">关于</a>
+                                        <a href="https://blog.yuuu.top" class="blog-button" target="_blank">博客</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -78,28 +88,29 @@
                             <nav class="cover-navigation navigation--social">
                                 <ul class="navigation">
                                     <li class="navigation__item">
-                                        <a href="https://github.com/dmego/" title="github" target="_blank">
+                                        <a href="https://github.com/YU-1021" title="github" target="_blank">
                                             <i class='social iconfont icon-github'></i>
                                             <span class="label">github</span>
                                         </a>
                                     </li>
                                     <li class="navigation__item">
-                                        <a href="http://www.cnblogs.com/dmego/" title="cnblogs" target="_blank">
-                                            <i class='social iconfont icon-cnblogs'></i>
-                                            <span class="label">cnblogs</span>
-                                        </a>
-                                    </li>
-
-                                    <li class="navigation__item">
-                                        <a href="https://www.zhihu.com/people/dmego/" title="zhihu" target="_blank">
-                                            <i class='social iconfont icon-zhihu'></i>
-                                            <span class="label">zhihu</span>
+                                        <a href="https://space.bilibili.com/1075986758" title="bilibili" target="_blank">
+                                            <svg class="social" viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M17.813 4.653h.854c1.51.054 2.769.578 3.773 1.574 1.004.995 1.524 2.249 1.562 3.76v7.36c-.038 1.51-.558 2.765-1.562 3.761s-2.262 1.52-3.773 1.574H5.333c-1.51-.054-2.769-.578-3.773-1.574C.556 20.112.036 18.857 0 17.347v-7.36c.036-1.511.556-2.765 1.562-3.76 1.004-.996 2.262-1.52 3.773-1.574h.774l-1.174-1.12a1.234 1.234 0 0 1-.373-.906c0-.356.124-.658.373-.907l.027-.027c.267-.249.573-.373.92-.373.347 0 .653.124.92.373L9.653 4.44c.071.071.134.142.187.213h4.267a.836.836 0 0 1 .16-.213l2.88-2.747c.267-.249.573-.373.92-.373.347 0 .662.131.934.373.267.249.391.551.391.907 0 .355-.124.657-.373.906l-1.206 1.12zm-8.16 2.267H5.333c-.889.036-1.631.329-2.227.88-.595.551-.892 1.28-.893 2.186v7.36c.001.907.298 1.636.893 2.187.596.551 1.338.844 2.227.88h13.334c.889-.036 1.631-.329 2.227-.88.595-.551.892-1.28.893-2.187v-7.36c-.001-.907-.298-1.635-.893-2.186-.596-.551-1.338-.844-2.227-.88h-4.32l-1.6 1.653H11.28l-1.627-1.653zm2.88 3.413c.427 0 .782.142 1.067.427.284.284.426.634.426 1.047v2.133c0 .413-.142.763-.426 1.047-.285.284-.64.427-1.067.427-.427 0-.782-.143-1.067-.427-.284-.284-.426-.634-.426-1.047v-2.133c0-.413.142-.763.426-1.047.285-.284.64-.427 1.067-.427zm-5.333 0c.427 0 .782.142 1.067.427.284.284.426.634.426 1.047v2.133c0 .413-.142.763-.426 1.047-.285.284-.64.427-1.067.427-.427 0-.782-.143-1.067-.427-.284-.284-.426-.634-.426-1.047v-2.133c0-.413.142-.763.426-1.047.285-.284.64-.427 1.067-.427z"/>
+                                            </svg>
+                                            <span class="label">bilibili</span>
                                         </a>
                                     </li>
                                     <li class="navigation__item">
-                                        <!-- 加密的邮箱地址, 请自行修改, 或者改用下方的明文方式 -->
-                                        <a href="javascript:decryptEmail('ZG1lYWdvQGdtYWlsLmNvbQ==');" title="email">
-                                        <!-- <a href="test@test.com" title="email"> -->
+                                        <a href="https://t.me/yufun21" title="telegram" target="_blank">
+                                            <svg class="social" viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                                            </svg>
+                                            <span class="label">telegram</span>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="javascript:decryptEmail('eXVmdW4yMUBxcS5jb20=');" title="email">
                                             <i class='social iconfont icon-email'></i>
                                             <span class="label">email</span>
                                         </a>
