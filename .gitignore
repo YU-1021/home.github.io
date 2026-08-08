@@ -33,3 +33,7 @@ analytics*
 .wrangler/
 worker-build/
 *.wasm
+
+# Reasonix 本地配置
+.reasonix/
+*.json
