@@ -3,4 +3,4 @@ main = "src/index.js"
 compatibility_date = "2025-04-01"
 
 # 静态资源目录（整个项目根目录）
-assets = { directory = "./", not_found_handling = "404.html" }
+assets = { directory = "./", not_found_handling = "404-page" }
