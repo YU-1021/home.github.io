@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "YuFun Home — Cloudflare Workers 静态站点",
   "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev"
-  },
-  "devDependencies": {
-    "wrangler": "^4.0.0"
+    "deploy": "npx wrangler@latest deploy",
+    "dev": "npx wrangler@latest dev"
   },
   "repository": {
     "type": "git",
