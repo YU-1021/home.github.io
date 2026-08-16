@@ -37,3 +37,4 @@ worker-build/
 # Reasonix 本地配置
 .reasonix/
 *.json
+*.json
